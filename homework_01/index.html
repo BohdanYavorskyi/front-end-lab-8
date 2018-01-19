@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>hw</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="main">
+      <div id="container">
+        <div id="content" role="main">
+          <!-- TODO: Content goes here -->
+            <div>     
+                <a href="http://www.epam.com/"> 
+                    <img src="EPAM_logo.svg" />
+                </a>
+                <nav>   
+                    <a href="#html">HTML</a> 
+                    <a href="#list">List</a>
+                    <a href="#table">Table</a>
+                    <a href="#text_formats">Text formats</a>
+                    <a href="#blockquotes">Blockquotes</a>
+                </nav>
+            </div>
+            <hr>
+            <header>
+                <h1 id="html">HTML Elements</h1>
+            </header>
+            <hr>
+            <div>
+                <header>
+                    <h2 id="list">Ordered list</h2>
+                </header>
+                <ul type = "square">           
+                    <li>Heading 1</li>
+                    <ul>
+                        <li>Heading 2</li>
+                        <ul>
+                            <li>Heading 3</li>
+                        </ul>
+                    </ul>
+                </ul>
+                <ol start = "1">           
+                    <li>Heading 4</li>
+                    <ol start = "A">
+                        <li>Heading 5</li>
+                        <ol start = "i">
+                            <li>Heading 6</li>
+                        </ol>
+                    </ol>
+                </ol>
+            </div>
+            <div>
+                <header>
+                    <h3> Definition List </h3>
+                </header>
+                <dl>
+                    <dt>defines terms 1 </dt>
+                    <dd>description 1 </dd>
+                    <dt>defines terms 2 </dt>
+                    <dd>description 2</dd>
+                </dl>
+            </div>
+            <div>
+                <header>
+                    <h2>Details</h2>
+                </header>
+                <details open="open"><summary>Even more details open</summary>
+                    <p>Here are even more details about the details.</p>
+                </details>
+                <details><summary>Even more details close</summary> 
+                    <p>Here are even more details about the details.</p>
+                </details>
+            </div>
+            <hr>
+            <div>
+                <header>
+                    <h2 id="table">Table</h2>
+                </header>
+                <table>
+                    <thead>
+                        <tr>
+                        <th>Elements</th>
+                        <th>Elements</th>
+                        <th>Elements</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Strong</strong></td>
+                            <td>H<sub>2</sub>O</td>
+                            <td><a href="#">Test link</a></td>
+                        </tr>
+                        <tr>
+                            <td><dfn>Italic</dfn></td>
+                            <td><u>Underline.</u></td>
+                            <td><del>Delete</del></td>
+                        </tr>
+                        <tr>
+                            <td><abbr>Abbreviation</abbr></td>
+                            <td>5<sup>3</sup>=125</td>
+                            <td><ins>Inserted</ins></td>
+                        </tr>  
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <header>
+                    <h2 id="text_formats">Text formats</h2>
+                </header>
+                <h3>Article text</h3>
+                <article>
+                    <h2>Article title</h2>
+                    <p>Article description</p>
+                </article>
+                <h3>Preformatted Text</h3>
+                <pre>
+Text
+  in a pre element
+    is displayed in a fixed-width
+font, and it preserves
+both           spaces and
+    line breaks
+                </pre>
+                
+                <h3>Code</h3>
+                <code>
+                    <pre>
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+                    </pre>
+                </code>    
+            </div>
+            <hr>
+            <div>
+                <header>
+                    <h2 id="blockquotes">Blockquotes</h2>
+                </header>
+                <h4>Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to     style the citation.</h4>    
+                <blockquote>Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them.
+                <p><a href="#">Steve Jobs</a></p> 
+                </blockquote>
+                <p hidden>And here’s a bit of trailing text.</p>
+            </div>
+            <footer>Copyright Epam Systems</footer>    
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
