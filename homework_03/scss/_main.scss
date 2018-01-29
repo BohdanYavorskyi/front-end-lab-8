@@ -1,0 +1,139 @@
+@mixin bgAndPad($bgCol, $padd){
+    background: $bgCol;
+    padding: $padd; 
+}
+
+@mixin widthPaddMargBoxSiz($w, $pad, $marg, $bsize){
+    width: $w;
+    padding: $pad;
+    margin: $marg;
+    box-sizing: $bsize;
+}
+
+html{
+    background: $background;
+}
+
+#content{
+    color: $textCol;
+    background: $contentCol;
+    margin: 0 auto;
+    width: 960px;
+    padding: 5px 5px 5px 20px;
+    
+    h1{
+        color: $headersCol;
+        text-align: center;
+    }
+    
+    h2{
+        color: $headersCol;
+    }
+
+    img{
+        border: 2px solid $headersCol;
+        padding: 2px;
+    }
+    
+    .img-left{
+        float: left;
+        margin: 0 20px 0px 0px;
+    }
+    
+    .img-right{
+        float: right;
+        margin: 0 10px 0px 10px;
+    }
+    
+    .brief{
+        float: $briefFloat;
+        color: $briefCol;
+        width: $widthBrief;    
+        margin-right: 20px;
+        margin-bottom: $margBot;
+    
+        @include bgAndPad($bgCol: $educationCol, $padd: 20px 0px 20px 20px);
+    }
+    
+    a{
+        color: $butCol;
+    }
+    
+    table{
+        width: 900px;
+        border-collapse: collapse;
+        margin-bottom: 50px;
+        
+        caption{
+            color: $tableCapCol;
+            text-align: right;
+        }
+        
+        th{
+            text-align: left;
+            text-transform: uppercase;
+            font-weight: normal;
+            border: 1px solid $contentCol;
+            @include bgAndPad($bgCol: $thCol, $padd: 10px);
+        }
+        
+        tr{
+            background: $tableCol;;
+            border-bottom: 1px solid $thCol;
+        
+            td{
+                padding: 10px;
+            }
+        }
+    }
+    
+    #input{
+        label{
+            font-size: 18px;
+            text-transform: uppercase;
+            color: $input;
+        }
+        
+        .contacts{
+            display: flex;
+            
+            .fname{
+                width: 100%;  
+                padding-right: 4px;
+            }
+            
+            .sname{
+                width: 100%;
+                padding-left: 4px;
+            }
+        }
+        
+        input[type=text] {
+            @include widthPaddMargBoxSiz($w: 100%, $pad: 7px 2px,$marg: 5px 0px 10px 0px, $bsize: border-box);
+            color: $input;
+        }
+        
+        .feedback{    
+            textarea{
+                height: 170px;
+                @include widthPaddMargBoxSiz($w: 100%, $pad: 5px, $marg: 5px 0px 20px 0px, $bsize: border-box);    
+            }
+        }
+    
+        input[type="submit"]{
+            border: 2px solid $butCol;
+            color: $butCol;
+            cursor: pointer;
+            font-size: 20px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+       
+            @include bgAndPad($bgCol: $contentCol, $padd: 10px 60px);
+            
+            &:hover{
+                color: lighten($butCol, 20%);    
+            }
+        }   
+    }    
+}
+

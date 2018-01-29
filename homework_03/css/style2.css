@@ -1,0 +1,87 @@
+html {
+  background: rgba(198, 238, 252, 0.53); }
+
+#content {
+  color: white;
+  background: #3b3b3b;
+  margin: 0 auto;
+  width: 960px;
+  padding: 5px 5px 5px 20px; }
+  #content h1 {
+    color: #fccd10;
+    text-align: center; }
+  #content h2 {
+    color: #fccd10; }
+  #content img {
+    border: 2px solid #fccd10;
+    padding: 2px; }
+  #content .img-left {
+    float: left;
+    margin: 0 20px 0px 0px; }
+  #content .img-right {
+    float: right;
+    margin: 0 10px 0px 10px; }
+  #content .brief {
+    float: none;
+    color: black;
+    width: 930px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    background: #fff178;
+    padding: 20px 0px 20px 20px; }
+  #content a {
+    color: #f5c70f; }
+  #content table {
+    width: 900px;
+    border-collapse: collapse;
+    margin-bottom: 50px; }
+    #content table caption {
+      color: #000000;
+      text-align: right; }
+    #content table th {
+      text-align: left;
+      text-transform: uppercase;
+      font-weight: normal;
+      border: 1px solid #3b3b3b;
+      background: #94a34e;
+      padding: 10px; }
+    #content table tr {
+      background: #677d01;
+      border-bottom: 1px solid #94a34e; }
+      #content table tr td {
+        padding: 10px; }
+  #content #input label {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #f5c70f; }
+  #content #input .contacts {
+    display: flex; }
+    #content #input .contacts .fname {
+      width: 100%;
+      padding-right: 4px; }
+    #content #input .contacts .sname {
+      width: 100%;
+      padding-left: 4px; }
+  #content #input input[type=text] {
+    width: 100%;
+    padding: 7px 2px;
+    margin: 5px 0px 10px 0px;
+    box-sizing: border-box;
+    color: #f5c70f; }
+  #content #input .feedback textarea {
+    height: 170px;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0px 20px 0px;
+    box-sizing: border-box; }
+  #content #input input[type="submit"] {
+    border: 2px solid #f5c70f;
+    color: #f5c70f;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    background: #3b3b3b;
+    padding: 10px 60px; }
+    #content #input input[type="submit"]:hover {
+      color: #f9de71; }
