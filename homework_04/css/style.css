@@ -1,0 +1,396 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+img {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  background: #F3F3F3;
+}
+
+* {
+  font-family: 'Open Sans';
+}
+
+a {
+  color: #F0F0F0;
+  text-decoration: none;
+  display: block;
+  padding: 0em 0.5em 1em 0.5em;
+  cursor: pointer;
+}
+a:hover {
+  border-bottom: 2px solid #B7C8D9;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+input[type="button"] {
+  border: 2px solid #343638;
+  background: #343638;
+  cursor: pointer;
+  color: #F0F0F0;
+}
+input[type="button"]:hover {
+  color: #cccccc;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+#content .main {
+  background-image: url(../img/apples.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 740px;
+}
+#content .main .main-nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+#content .main .main-nav p {
+  justify-content: flex-start;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+}
+#content .main .main-nav .main-nav-item {
+  display: flex;
+  justify-content: flex-end;
+}
+#content .main .main-nav .main-nav-item ul li {
+  margin-right: 5%;
+}
+#content .main .header {
+  color: #FFF;
+}
+#content .main .header .title {
+  padding-top: 14%;
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+#content .main .header .title header {
+  font-size: 42px;
+  letter-spacing: 11px;
+  text-transform: uppercase;
+}
+#content .main .header .title span {
+  font-size: 80px;
+  font-family: "Times new roman";
+}
+#content .main .header div {
+  padding-left: 2%;
+}
+#content .main .header div p {
+  font-size: 15px;
+  color: #F0F0F0;
+}
+#content .main .header div .readbut {
+  margin-top: 12%;
+  color: white;
+  background: black;
+  width: 16em;
+  height: 4.5em;
+  opacity: 0.6;
+  border: 2px solid white;
+}
+#content .main .header section .readbut:hover {
+  color: #cccccc;
+}
+#content .white-first {
+  background: #FFF;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#content .white-first div {
+  display: flex;
+}
+#content .white-first h3 {
+  padding-right: 50px;
+  font-weight: normal;
+  line-height: 1.8em;
+  text-align: justify;
+}
+#content .white-first h5 {
+  text-align: justify;
+}
+#content .grey {
+  background: #F3F3F3;
+  margin: auto;
+}
+#content .grey h3 {
+  padding-top: 5%;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#content .grey .part1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 2%;
+}
+#content .grey .part1 .first-img {
+  position: relative;
+  margin-right: 2%;
+  background: none;
+}
+#content .grey .part1 .first-img p {
+  position: absolute;
+  left: 3%;
+  bottom: 3%;
+  color: #c6c0c0;
+  font-size: 20px;
+}
+#content .grey .part1 .first-img p b {
+  background: none;
+  color: white;
+}
+#content .grey .part1 .second-img {
+  position: relative;
+  margin-right: 0px;
+  background: none;
+}
+#content .grey .part1 .second-img p {
+  position: absolute;
+  left: 3%;
+  bottom: 3%;
+  color: #c6c0c0;
+  font-size: 20px;
+}
+#content .grey .part1 .second-img p b {
+  background: none;
+  color: white;
+}
+#content .grey .part1 .likeBut1 {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  width: 50px;
+  height: 30px;
+}
+#content .grey .part1 .likeBut2 {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  width: 50px;
+  height: 30px;
+}
+#content .grey .part1 input {
+  border: 2px solid #FFF;
+}
+#content .grey .part2 {
+  display: flex;
+  justify-content: center;
+}
+#content .grey .part2 .rep-img {
+  position: relative;
+  margin-right: 2%;
+  background: none;
+}
+#content .grey .part2 .rep-img p {
+  position: absolute;
+  left: 3%;
+  bottom: 3%;
+  color: #c6c0c0;
+  font-size: 20px;
+}
+#content .grey .part2 .rep-img p b {
+  background: none;
+  color: white;
+}
+#content .grey .part2 .third-img {
+  position: relative;
+  margin-right: 0px;
+  background: none;
+}
+#content .grey .part2 .third-img p {
+  position: absolute;
+  left: 3%;
+  bottom: 3%;
+  color: #c6c0c0;
+  font-size: 20px;
+}
+#content .grey .part2 .third-img p b {
+  background: none;
+  color: white;
+}
+#content .grey .part2 .likeBut2 {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  width: 50px;
+  height: 30px;
+}
+#content .grey .part2 .likeBut3 {
+  position: absolute;
+  right: 3%;
+  top: 3%;
+  width: 50px;
+  height: 30px;
+}
+#content .grey .part2 input {
+  border: 2px solid #FFF;
+}
+#content .grey .subscribe {
+  display: flex;
+  margin-top: 7%;
+  margin-bottom: 12%;
+  padding: 5% 5% 5% 5%;
+  background: #FFF;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+#content .grey .subscribe div {
+  display: flex;
+}
+#content .grey .subscribe p {
+  font-size: 1.3em;
+}
+#content .grey .subscribe input[type="email"] {
+  padding-left: 2%;
+  background: #f2f4f7;
+  font-weight: bold;
+  width: 32vw;
+}
+#content .grey .subscribe input[type="email"]::placeholder {
+  color: black;
+}
+#content .grey .subscribe input {
+  border: 2px solid #343638;
+  width: 150px;
+}
+#content .white-last {
+  padding: 5%;
+  background: white;
+}
+#content .white-last .def-list {
+  display: flex;
+  justify-content: space-around;
+}
+#content .white-last .def-list div {
+  margin-left: 1.5%;
+}
+#content .white-last .def-list div:nth-child(2) p {
+  line-height: 1.8em;
+}
+#content .white-last .def-list div:nth-child(3) p {
+  line-height: 1.2em;
+}
+#content .white-last .def-list div:nth-child(3) h5 {
+  text-align: left;
+  color: #dadada;
+}
+#content .white-last .def-list div h3 {
+  font-weight: bolder;
+  color: black;
+  text-align: left;
+}
+#content .white-last .def-list div p {
+  font-size: 15px;
+  text-align: justify;
+  color: #A4A4A4;
+}
+#content .white-last .def-list div .last {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  padding-top: 3%;
+}
+#content .white-last .def-list div .last input {
+  width: 90px;
+}
+#content .white-last .def-list div .last input[type="email"] {
+  width: 155px;
+  border: 2px solid #343638;
+  padding-left: 5%;
+  background: #F3F3F3;
+  font-weight: bold;
+}
+#content .white-last .def-list div .last input[type="email"]::placeholder {
+  color: #A4A4A4;
+  font-style: italic;
+}
+#content .footer {
+  color: #A4A4A4;
+  background: #FFF;
+  padding-top: 2%;
+}
+#content .footer hr {
+  margin-left: 8%;
+  margin-right: 7%;
+  border: 1px solid #E8E8E8;
+}
+#content .footer div {
+  display: flex;
+  justify-content: space-around;
+}
+#content .footer div footer {
+  justify-content: flex-start;
+  padding-top: 20px;
+  margin-right: 30%;
+}
+#content .footer div ul {
+  justify-content: flex-end;
+}
+#content .footer div ul li {
+  margin-right: 5%;
+}
+#content .footer div a {
+  font-weight: bold;
+  color: black;
+}
+
+@media screen and (max-width: 680px) {
+  .title {
+    flex-direction: column;
+  }
+
+  ul {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .grey {
+    justify-content: space-around;
+  }
+
+  .part1 {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .part2 {
+    flex-direction: column;
+  }
+
+  .subscribe div {
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .def-list {
+    flex-direction: column;
+    flex-flow: row wrap;
+  }
+  .def-list .last {
+    flex-flow: row wrap;
+  }
+
+  .footer div {
+    flex-direction: column;
+  }
+}
