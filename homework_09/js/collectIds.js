@@ -34,7 +34,6 @@ function collectIds(movies){
     //return an array of the objects where rating of the el is more than 3.0
     var ids = getFilteredArray(movies, el => {
         if(el["rating"] > 3.0){
-            //console.log(el["id"]);  
             return el;    
         }   
     });
