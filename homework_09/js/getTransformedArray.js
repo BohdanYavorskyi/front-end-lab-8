@@ -6,7 +6,7 @@ function getTransformedArray(arr, incFunc){
     
     //create a new transformed array
     var newArr = forEach(arr, el => {
-        console.log(incFunc(el));
+        //console.log(incFunc(el));
         return incFunc(el);
     });
     
