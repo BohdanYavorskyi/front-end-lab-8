@@ -9,7 +9,7 @@ function getFilteredArray(arr, predFunc){
     //create a new filtered array where predFunc returns true
     forEach(arr, el => {
         if(predFunc(el)){
-            console.log((el));
+            //console.log((el));
             
             filteredArr[count] = el;
             count++;
