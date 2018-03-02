@@ -1,0 +1,100 @@
+/* Your styles goes here */
+* {
+    font-family: sans-serif;
+}
+h1{
+    font-size: 50px;
+    color: rgb(162,158,137);
+    margin-top: 50px;
+    margin-left: 20px;
+}
+body{
+    background-color: rgb(30,30,30);
+    margin: 0;
+}
+.tank-img{
+    width: 320px;
+    height: 220px;
+}
+.tank-item{
+    display: inline-block;
+}
+.tank-item:hover{
+    cursor: pointer;
+}
+.tank-info{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.tank-country{
+    width: 40px;
+    height: 25px;
+}
+.tank-level, .tank-model{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.tank-level{
+    color: rgb(162,158,137);
+}
+.tank-model{
+    color: rgb(215,210,185);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    max-width: 266px;
+}
+/*details*/
+.header{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.tank-details-header{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.tank-details-country{
+    width: 65px;
+    height: 40px;
+}
+h2{
+    color: rgb(161,158,137);
+    font-size: 40px;
+    margin-top: 60px;
+}
+.back-to-list{
+    color: rgb(161,158,137);
+    font-size: 30px;
+    cursor: pointer;
+    display: block;
+    margin-left: 0;
+}
+.tank-details-content{
+    display: flex;
+    justify-content: space-between;
+}
+.tank-details-left{
+    padding-left: 10px;
+}
+.tank-details-right{
+    width: 55%;
+    padding-right: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;  
+    color: rgb(215,210,185);
+}
+td{
+    border: 1px solid rgb(215,210,185);
+    font-size: 18px;
+    height: 40px;
+    padding-left: 20px;
+}
